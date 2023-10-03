@@ -8,9 +8,10 @@ body{
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url("public/background.jpg");
+  background-image: url("public/background.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 input{
@@ -36,8 +37,6 @@ select{
   height: 30px;
   width: 53%;
   outline: none;
-
-  
 }
 select option[value=""][disabled] {
   display: none;
@@ -63,6 +62,10 @@ button{
   &:active{
     background-color: #474747;
   }
+}
+
+label{
+  display: inline-block;
 }
 
 #header{
