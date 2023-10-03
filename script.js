@@ -101,10 +101,10 @@ calculateButton.onclick = function() {
     alert("운동 종목을 선택해주세요.");
   }
   else if(selectedWeight == "") {
-    alert("무게를 입력해주세요.");
+    alert("운동 중량를 입력해주세요.");
   }
   else if(selectedReps == "") {
-    alert("횟수를 입력해주세요.");
+    alert("운동 횟수를 입력해주세요.");
   }
   else if(selectedReps > 10 || selectedReps < 1) {
     alert("1~10회 사이의 횟수를 입력해주세요.");
