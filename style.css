@@ -109,6 +109,30 @@ label{
   padding-top: 5px;
 }
 
+#bottom-subscription{
+	margin-top: 5px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  color: white;
+  font-weight: 300;
+  font-size: 12px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  outline: 2px solid black;
+  border-radius: 10px;
+
+  word-break: keep-all;
+  line-height : 1.5;
+ 
+  @media (max-width: 767px){
+    display: none;
+  }
+  @media (max-height: 890px){
+    display: none;
+  }
+}
+
 .input-container{
   margin: 20px;
   margin-top: 30px;

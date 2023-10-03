@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="운동 중량과 횟수를 입력하고, 1RM계산과 운동 중량을 추천해 주는 1RM 계산기 입니다.">
+    <meta name="description" content="운동 중량과 횟수를 입력하면 1RM을 계산하여 운동 중량을 추천해 드립니다. | NSCA계수와 브르지키(Brzycki)계수를 사용하여 계산합니다.">
 
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./public/favicon.ico">
@@ -39,6 +39,11 @@
             <button id="calculate">계산하기</button>
         </div>
     </div>
+    <div id="bottom-subscription">1RM(1 Repetition Maximum)은 1회 최대 중량을 의미합니다. <br>
+        3대 운동(벤치프레스, 스쿼트, 데드리프트)는 NSCA계수를 사용하여 계산하며, <br> 
+        그 외 운동은 브르지키(Brzycki)계수를 사용하여 계산합니다.<br> 
+        운동 중량 추천은 1RM을 기반으로 운동 목적에 맞게 계산하여 추천합니다. <br> 
+        스쿼트의 NSCA계수가 높아 추천 중량이 높아질 수 있는 점 유의 부탁드립니다.</div>
     <script src="script.js"></script>
 </body>
 </html>
