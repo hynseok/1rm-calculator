@@ -1,4 +1,1 @@
-User-agent: *
-Allow: /
-
 Sitemap: https://hynseok.github.io/1rm-calculator/sitemap.xml
